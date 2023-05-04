@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(28, 169, 186, 1) 56%,
+    rgba(6, 11, 11, 1) 100%
+  );
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+.title-main {
+  text-align: center;
+  margin-top: 5%;
+  border: 3px black solid;
+  border-radius: 5px;
+  background-color: chartreuse;
+}
+a {
+  margin-top: 30px;
+  font-size: large;
+  color: blue;
+}
+a:visited {
+  color: red;
+}
+
+.food-img {
+    width: 300px;
+    height: auto;
+}
