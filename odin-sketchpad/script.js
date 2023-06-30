@@ -1,7 +1,7 @@
 const grid = document.getElementById("grid-container");
 const gridItem = document.getElementsByClassName("grid-item");
 const gridDiv = document.getElementsByClassName("div");
-const bnt = document.getElementById("btn");
+const btn = document.getElementById("btn");
 
 function makeRows(rows, columns) {
   grid.style.setProperty("--grid-rows", rows);
@@ -28,7 +28,7 @@ for (var i = 0; i < gridItem.length; i++) {
   );
 }
 
-bnt.addEventListener("click", () => {
+btn.addEventListener("click", () => {
   let newSize = prompt("How big grid u want? (between 1-100 )");
   if (newSize < 1 || newSize > 100) {
     alert("Choose a number between 1-100");
